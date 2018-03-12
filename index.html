@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>3D Spending Explorer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="app">
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <!-- libraries and VR config based on https://github.com/skezo/Reticulum/blob/master/examples/visibility.html -->
+    <script type="text/javascript" src="js/vr-config.js"></script>
+    <script type="text/javascript" src="js/lib/three.js"></script>
+    <script type="text/javascript" src="js/lib/VRControls.js"></script>
+    <script type="text/javascript" src="js/lib/VREffect.js"></script>
+    <script type="text/javascript" src="js/lib/webvr-polyfill.js"></script>
+    <script type="text/javascript" src="js/lib/webvr-manager.js"></script>
+    <script type="text/javascript" src="js/lib/reticulum.js"></script>
+
+
+    <!-- D3 -->
+    <script type="text/javascript" src="js/lib/d3.min.js"></script>
+
+    <!-- helpers -->
+    <script type="text/javascript" src="js/lib/tinycolor.js"></script>
+    <script type="text/javascript" src="js/lib/accounting.min.js"></script>
+    <script type="text/javascript" src="js/lib/tween.js"></script>
+    <script type="text/javascript" src="js/lib/oimo.min.js"></script>
+    <script type="text/javascript" src="js/lib/nosleep.min.js"></script>
+    <script type="text/javascript" src="js/lib/date-fns.min.js"></script>
+
+    <!-- our app -->
+    <script type="text/javascript" src="js/box-model.js"></script>
+    <script type="text/javascript" src="js/fy-calc.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
